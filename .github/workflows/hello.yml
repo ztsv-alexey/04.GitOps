@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.14'
 
-        - name: run_script
-          run: python hello.py
+      - name: run_script
+        run: python hello.py
 
 
