@@ -13,9 +13,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: python_install
-          uses: actions/setup-python
-          with:
-            python-version: '3.14'
+        uses: actions/setup-python
+        with:
+          python-version: '3.14'
 
         - name: run_script
           run: python hello.py
